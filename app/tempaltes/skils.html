@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skils</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=PT+Serif&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            font-family: 'Poppins',sans-serif;  
+        }
+       #main{
+        /* display: flex;*/
+        margin-top: 0px;
+        height: 65px;
+        /* background-color: rgb(233,236,239); */
+        background-color: rgb(228, 229, 230);
+        
+
+       }
+       #sec1{
+        display: inline-block;
+        font-size: 20px;
+        font-family: sans-serif;
+        width: 680px;
+        margin-left: 20px;
+        line-height: 70px;
+        color: rgb(0,0,0);
+        
+
+        
+       }
+       #sec2{
+        display: inline-block;
+        line-height: 40px;
+        word-spacing: 70px;
+        font-size: larger;
+        font-family:  sans-serif;
+        color: rgb(81,82,83);
+       }
+       a{
+        text-decoration: none;
+        color: rgb(81,82,83);
+        }
+        a:hover{
+        text-decoration:underline;
+        color: #ff004f;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(255,255,255);">
+    
+    <div id="main">
+        <section id="sec1">
+            <h1>DHIVAKAR</h1>
+        </section>
+        <section id="sec2">
+            <a href="{% url 'portfolio' %}" >Home</a>
+            <a href="{% url 'education' %}" >Education</a>
+            <a href="{% url 'project' %}" >Project</a>
+            <a href="{% url 'details' %}"  >Details</a>
+            <a href="{% url 'contact' %}"  >Contact</a>
+        </section>
+    </div>
+    <br><br>
+    <h2>Skils</h2>
+    <br><br>
+    <div id="python" style="display: flex;">
+        <section style="margin-left: 150px;width: 25%;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3dvurwfqMolKjc2EBcoALj8L1nFWlSGtNF6yeu4ONXw&s" alt="" style="width: 150px;" >
+    </section>
+    <section style="margin-top: 15px;">
+        <h3>Python</h3>
+       <ul>
+        <li>strong understanding in MUTABLE and IMMUTABLE Concept </li>
+        <li>Basic knowledge of Exception and Handling – dataypes (individual,collection)</li>
+        <li>OOPS Concept in Class, objects, Constructor</li>
+        <li>generators,decorators,parsing technique handling</li>
+       </ul>
+       <br>
+        <hr>
+       
+    </section>
+    </div>
+    <br><br><br>
+    <div style="display: flex;">
+    <section style="width: 40%;margin-left: 300px;margin-top: 20px;">
+        <h3>SQL</h3>
+        <ul>
+            <li>Having knowledge in DDL, DML, TCL, DCL, DQL. </li>
+            <li>Having knowledge in DBMS, RDBMS</li>
+            <li>Having knowledge in Datatypes, Constraints</li>
+           
+        </ul>
+        <br>
+        <hr>
+
+    </section>
+    <section>
+        <img src="https://media.licdn.com/dms/image/D4D12AQHOe5HF849Xtw/article-cover_image-shrink_720_1280/0/1696684905692?e=2147483647&v=beta&t=jOyXyi5MIKBQS3MmuDQqusJyi1RJD4WqXMFhVIh4jOo" alt="" style="width:300px ;height: 150px;">
+    </section>
+</div>
+<br><br><br>
+<div style="display: flex;">
+
+    <section style="margin-left: 150px;width: 25%;">
+        <img src="https://res.cloudinary.com/teepublic/image/private/s--hRRmaYZS--/c_crop,x_10,y_10/c_fit,w_830/c_crop,g_north_west,h_1038,w_1038,x_-102,y_-375/l_upload:v1565806151:production:blanks:vdbwo35fw6qtflw9kezw/fl_layer_apply,g_north_west,x_-213,y_-486/b_rgb:ffffff/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1655180765/production/designs/31600884_0.jpg" alt="" style="width: 170px;">
+    </section>
+    <section style="width: 50%;">
+        <h3>Django-Frame work</h3>
+        <ul>
+            <li>Proficient in Django, with expertise in core concepts including models, views, templates, and URL routing.</li>
+            <li>Experienced in database management using Django's ORM, performing CRUD operations and data manipulation.</li>
+            <li>Skilled in building forms with validation and implementing user authentication and authorization systems.</li>
+            <li>Familiar with Django's admin interface for dynamic data management and customization</li>
+        </ul>
+        <br>
+        <hr>
+
+    </section>
+</div>
+    <br><br><br>
+    <div style="display: flex;">
+    <section style="margin-left: 300px;">
+        <h3>HTML</h3>
+        <ul>
+            <li>Elements: Fundamental building blocks of HTML, enclosed in tags.</li>
+            <li>Tags: Markers defining the beginning and end of elements.</li>
+            <li>Attributes: Provide additional information within tags.</li>
+            <li>Document Structure: Composed of key elements like  DOCTYPE,<br> html, head, and body.</li>
+        </ul>
+        <br>
+        <hr>
+
+    </section>
+    <section>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkYjPO7FLc0ZS1qptK0lBtACZChBRH-D72nJI3UoX67w&s" alt="" style="width: 150px;margin-left: 80px;">
+    </section>
+</div>
+<br><br><br>
+<div style="display: flex;">
+<section style="width: 25%;margin-left: 150px;">
+<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" alt="" style="width: 200px;">
+</section>
+<section style="width: 50%;">
+    <h3>CSS</h3>
+    <ul>
+        <li>Selectors: CSS selectors target HTML elements for styling. They can be based on element type, class, ID, or other attributes.</li>
+        <li>Properties: CSS properties define how selected elements should appear. They include attributes like color, font-size, margin, padding, etc.</li>
+        <li>Cascade: CSS follows a cascading order, where multiple styles can apply to an element. The order of precedence is determined by specificity, importance, and source order.</li>
+        <li>Box Model: Every HTML element is represented as a rectangular box in CSS. This model consists of the content area, padding, border, and margin, defining the space an element occupies.</li>
+    </ul>
+    <br>
+        <hr>
+
+</section></div>
+<br><br><br>
+</body>
+</html>

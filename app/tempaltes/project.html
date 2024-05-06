@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=PT+Serif&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            *{
+                margin: 0px;
+                font-family: 'Poppins',sans-serif;  
+            }
+           #main{
+            /* display: flex;*/
+            margin-top: 0px;
+            height: 65px;
+            background-color: rgb(228, 229, 230);
+            /* background-color: rgb(233,236,239); */
+           }
+           #sec1{
+            display: inline-block;
+            font-size: 20px;
+            font-family: sans-serif;
+            width: 680px;
+            margin-left: 20px;
+            line-height: 70px;
+            color: rgb(0,0,0);        
+           }
+           #sec2{
+            display: inline-block;
+            line-height: 40px;
+            word-spacing: 70px;
+            font-size: larger;
+            font-family:  sans-serif;
+            color: rgb(81,82,83);
+           }
+           #pro{
+            margin-left: 100px;
+            width: 70%;
+            margin-top: 40px;
+           }
+           a{
+            text-decoration: none;
+            color: rgb(81,82,83);
+            }
+            a:hover{
+            text-decoration:underline;
+            color: #ff004f;
+            }
+        </style>
+</head>
+<body style="background-color: rgb(255,255,255);">
+        
+        <div id="main">
+            <section id="sec1">
+                <h1>DHIVAKAR</h1>
+            </section>
+            <section id="sec2">
+                <a href="{% url 'portfolio' %}" >Home</a>
+                <a href="{% url 'education' %}" >Education</a>
+                <a href="{% url 'skils' %}"  >Skils</a>
+                <a href="{% url 'details' %}"  >Details</a>
+                <a href="{% url 'contact' %}"  >Contact</a>
+            </section>
+        </div>
+        <br><br>
+        <h2>Project</h2>
+
+        <div id="pro">
+            <h2>SHOPPING - CART PROJECT | FEB 2024 - MAR 2024</h2>
+            <p style="margin-bottom: 30px;"> I created a shopping cart where it contains user login, registration, admin login, admin access for a shop using python and to store data,sqlite3 module is used.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROQpa2F7LPObft9fOX05PWy9IBkcR_BwFfmtOtI15Y9w&s" alt="" style="width: 200px;">
+            <h2>Students Tracking System Using Android Phones | Mar 2023 - Jun 2023</h2>
+            <p>Associated with Ponnaiyah Ramajayam Institute of Science & Technology, Thanjavur</p> 
+
+            <img src="https://www.tracalogic.com/demos/real-time-gps-tracking-system-in-pune.png" alt="" style="width: 200px;padding-top: 40px;">   
+        </div>
+    
+      
+    
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=PT+Serif&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            font-family: 'Poppins',sans-serif;  
+        }
+       #main{
+        /* display: flex;*/
+        margin-top: 0px;
+        height: 65px;
+        /* background-color: rgb(233,236,239); */
+        background-color: rgb(228, 229, 230);
+        
+
+       }
+       #sec1{
+        display: inline-block;
+        font-size: 20px;
+        font-family: sans-serif;
+        width: 680px;
+        margin-left: 20px;
+        line-height: 70px;
+        color: rgb(0,0,0);
+        
+
+        
+       }
+       #sec2{
+        display: inline-block;
+        line-height: 40px;
+        word-spacing: 70px;
+        font-size: larger;
+        font-family:  sans-serif;
+        color: rgb(81,82,83);
+       }
+       #det{
+        margin-top: 20px;
+        display: inline-block;
+        margin-left: 200px;
+
+       }
+       #det1{
+        display: inline-block;
+        margin-left: 200px;
+       }
+       label{
+        margin-left: 350px;
+        color: white;
+      
+       
+       }
+       input{
+        width: 700px;
+        height:30px;
+        border-radius: 7px;
+        margin-left: 350px;
+        margin-bottom: 20px;
+       }
+       a{
+        text-decoration: none;
+        color: rgb(81,82,83);
+        }
+        a:hover{
+        text-decoration:underline;
+        color: #ff004f;
+        }
+   
+       
+    </style>
+</head>
+<body style="background-color: rgb(33,37,41);">
+    
+    <div id="main">
+        <section id="sec1">
+            <h1>DHIVAKAR</h1>
+        </section>
+        <section id="sec2">
+            <a href="{% url 'portfolio' %}" >Home</a>
+            <a href="{% url 'education' %}" >Education</a>
+            <a href="{% url 'skils' %}"  >Skils</a>
+            <a href="{% url 'project' %}"  >Project</a>
+            <a href="{% url 'details' %}"  >Details</a>
+        </section>
+    </div>
+    <h2 style="text-align: center;margin-top: 30px;color: white;margin-bottom: 20px;">Contact</h2>
+    <label for="name">Name</label><br>
+    <input type="text" id="name">
+    <label for="phone">Phone Number</label><br>
+    <input type="tel" id="phone">
+    <label for="email">E-mail</label><br>
+    <input type="email" id="email">
+    <label for="address">Address</label><br>
+    <input type="text" id="address" style="height: 100px;"><br>
+    <button style="margin-left: 350px;height: 30px;width: 100px;border: none;background-color: rgb(13,110,253);border-radius: 5px;color: white;">Submit</button>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHIVA.CV</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=PT+Serif&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            font-family: 'Poppins',sans-serif;  
+        }
+       #main{
+        /* display: flex;*/
+        margin-top: 0px;
+        height: 65px;
+        /* background-color: rgb(233,236,239); */
+        background-color: rgb(228, 229, 230);
+        
+
+       }
+       #sec1{
+        display: inline-block;
+        font-size: 20px;
+        font-family: sans-serif;
+        width: 680px;
+        margin-left: 20px;
+        line-height: 70px;
+        color: rgb(0,0,0);
+        
+
+        
+       }
+       #sec2{
+        display: inline-block;
+        line-height: 40px;
+        word-spacing: 70px;
+        font-size: larger;
+        font-family:  sans-serif;
+        color: rgb(81,82,83);   
+       }
+       #main1{
+        display: flex;
+       }
+       #pho{
+        width: 100%;
+        height: 90vh;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/611/336/840/food-coffee-laptop-hd-wallpaper-preview.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+       }
+       #font{
+        color: white;
+        padding-top: 425px;
+        padding-left: 40px;
+       }
+       #about{
+        width: 550px;
+        margin-left: 130px;
+        height: 60vh;
+       }    
+       a{
+        text-decoration: none;
+        color: rgb(81,82,83);
+        }
+        a:hover{
+        text-decoration:underline;
+        color: #ff004f;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(255,255,255);">
+
+
+    <div id="main">
+        <section id="sec1">
+            <h1>DHIVAKAR</h1>
+        </section>
+        <section id="sec2">
+            <a href="{% url 'education' %}"  >Education</a>
+            <a href="{% url 'skils' %}" >Skils</a>
+            <a href="{% url 'project' %}"  >Project</a>
+            <a href="{% url 'details' %}"  >Details</a>
+            <a href="{% url 'contact' %}"  >Contact</a>
+        </section>
+    </div>
+
+    <div id="pho">
+        <div id="font">
+        <h1>HI MY NAME IS DHIVAKAR K</h1><br>
+        <h4>VERSATILE CODER PROFICIENT IN PYTHON | SQL | HTML | CSS WEAVING  <br> DIGITAL MAGIC FOR SEAMLESS WEB EXPERIENCES</h4>
+    </div>
+
+    </div>
+    <br><br>
+    <div id="main1">
+        <section id="about">
+            <h1>About me</h1>
+            <br>
+            <p>I recently completed a comprehensive Full stack development course at QSpiders, where I honed my skills in full stack development and mobile application development. In just three months, I successfully completed a mobile application project that showcased my proficiency in Python, SQL, and HTML. This experience has equipped me with a strong foundation in web technologies and programming.</p> <br>
+            <p>I am passionate about creating dynamic and user-friendly web and mobile applications that provide exceptional user experiences. My dedication to continuous learning and staying updated with the latest industry trends drives me to excel in this field.</p>
+        </section>
+        <section>
+        
+            
+        </section>
+    </div>
+   
+
+    </div>
+   
+
+    
+ 
+
+           
+ 
+</body>
+
+</html>
