@@ -3,8 +3,8 @@ from django.shortcuts import render
 # Create your views here.
 
 
-def home_view(request):
-    return render(request,'home.html')
+def index_view(request):
+    return render(request,'index.html')
 
 def education_view(request):
     return render(request,'eduction.html')
