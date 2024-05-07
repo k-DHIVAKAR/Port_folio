@@ -25,9 +25,9 @@ TEMPLATES_APP_DIRS = os.path.join(BASE_DIR,'app','tempaltes')
 SECRET_KEY = 'django-insecure-#y^%qp&tf1hcy*4hx+aaz6kpvp$%ykn^)u8z#r7w9akv1$cyr+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
